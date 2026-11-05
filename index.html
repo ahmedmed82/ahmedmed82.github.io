@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Harr Studio</title>
+<link rel="icon" href="harr-studio.svg" type="image/svg+xml">
 <style>
   :root { --bg: #fffaf2; --fg: #2b1b0e; --muted: #6b5a4a; --accent: #a8541a; }
   @media (prefers-color-scheme: dark) {
@@ -11,7 +12,10 @@
   }
   body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, sans-serif; }
   main { max-width: 760px; margin: 0 auto; padding: 24px 16px 48px; }
-  h1 { font-size: 1.8rem; margin-bottom: 0; }
+  h1 { font-size: 1.8rem; margin-bottom: 0; display: flex; align-items: center; gap: 10px; }
+  h1 img { width: 1.5em; height: 1.5em; }
+  h2.app { display: flex; align-items: center; gap: 12px; }
+  h2.app img { width: 48px; height: 48px; border-radius: 22%; flex: none; }
   .sub { color: var(--muted); margin-top: 4px; }
   h2 { font-size: 1.2rem; margin-top: 32px; }
   a { color: var(--accent); }
@@ -19,10 +23,10 @@
 </head>
 <body>
 <main>
-<h1>Harr Studio</h1>
+<h1>Harr Studio <img src="harr-studio.svg" alt="Felfel nabli, piment de Nabeul"></h1>
 <p class="sub">Petites applications et jeux pour Android</p>
 
-<h2>Quel proverbe ? – أمثال تونسية</h2>
+<h2 class="app"><img src="quel-proverbe/icon.png" alt="">Quel proverbe ? - أمثال تونسية</h2>
 <p>Mimez ou dessinez des proverbes tunisiens et faites-les deviner à vos proches, sur un seul téléphone ou à plusieurs sur le même Wi-Fi.</p>
 <p><a href="quel-proverbe/confidentialite.html">Politique de confidentialité</a></p>
 

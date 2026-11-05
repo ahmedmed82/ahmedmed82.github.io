@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Felfel nabli, piment de Nabeul">
+  <defs>
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E8302A"/>
+      <stop offset="1" stop-color="#A3121B"/>
+    </linearGradient>
+  </defs>
+  <!-- long, thin, curved Nabeul pepper -->
+  <path d="M15,15 C22,11 29,15 34,23 C41,35 48,47 57,58 Q58.5,61.5 55,60 C45,50 35,40 26,32 C19,26 11,21 15,15 Z" fill="url(#red)"/>
+  <!-- shine -->
+  <path d="M20,15.5 C26,15.5 29.5,19.5 33,26 C37,33.5 41,40 45.5,46.5" fill="none" stroke="#fff" stroke-opacity=".45" stroke-width="2" stroke-linecap="round"/>
+  <!-- calyx and stem -->
+  <path d="M10.5,18.5 C10,12 16.5,8.5 22.5,12 C19.5,12.5 17.5,15 16.5,19 C14.5,20.5 11.5,20.5 10.5,18.5 Z" fill="#2E7D32"/>
+  <path d="M15,13 C13.5,8.5 10.5,5.5 6,4.5" fill="none" stroke="#2E7D32" stroke-width="3" stroke-linecap="round"/>
+</svg>
